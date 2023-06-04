@@ -1,0 +1,46 @@
+*{
+        font-family: 'Inter', sans-serif;
+       font-family: 'Open Sans', sans-serif;
+}
+.first-section{
+        background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.section-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 58px;
+        color: #FFFFFF;
+        
+       
+       
+        
+       
+} 
+.btn-primary{
+        position: absolute;
+        top: 75%;
+        left: 40%;
+        background: #FF5959;
+        border-radius: 5px;
+        height: 56px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        border: 0;
+        padding: 8px;
+}
+.section-description{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        color: #FFFFFF;
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+}
+.donation1{
+        width: 100%;
+        position: relative;
+}

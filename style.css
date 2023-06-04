@@ -43,4 +43,83 @@
 .donation1{
         width: 100%;
         position: relative;
+        
+}
+
+/* donate today styles */
+.text-primary{
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+        color: #121212;
+        margin-top: 130px;
+}
+.description-primary{
+        font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #707070;
+height: 56px;
+margin: 30px 330px;
+}
+
+/* money section styles */
+.money{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 10px;
+        
+        
+}
+.money h1{
+        text-align: center;
+        padding: 15px;
+}
+.money-title{
+width: 135px;
+height: 123px;
+background: #FAFAFA;
+border-radius: 5px
+
+
+}
+.two-hundred{
+        width: 136px;
+        height: 129px;
+        color: ; 
+       background-color: #FFEEEE;
+       border: 2px solid #FF5959;
+       border-radius: 5px;
+      
+       
+       
+}
+/* .two-hundred h2{
+        padding: 15px;
+} */
+mama{
+padding: 20px;
+}
+.taka{
+        color: #B3B3B3;
+        text-align: center;
+}
+.btn-secondary{
+        
+        height: 56px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        background: #FF5959;
+        border-radius: 5px;
+        color: #FFFFFF;
+        border: 0;
+       
+        
+}
+.donate-me{
+        text-align: center;
+        margin: 99px 338px;
+        color:#B3B3B3; 
 }

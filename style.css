@@ -1,7 +1,10 @@
+
+
+
 *{
         font-family: 'Inter', sans-serif;
        font-family: 'Open Sans', sans-serif;
-       
+      
 /* background-color:#FFFFFF; */
 }
 .donation1{
@@ -136,7 +139,7 @@ border-radius: 5px;
         gap: 25px;
 }
 .plane-box{
-background: rgba(187, 176, 176, 0.1);
+        background: rgba(79, 157, 166, 0.1);
 border-radius: 5px;
  height: 352px;
 
@@ -145,8 +148,99 @@ padding: 20px;
 /* margin: 50px 100px */
 }
 .shelter{
-        background-color: rgb(198, 222, 231);
+        background: rgba(255, 89, 89, 0.1);
 }
 .frame{
-      background-color:#dcc572 ;  
+      background-color:#f2e7c1 ;  
+}
+/* their live description section styles  */
+.live-container{
+        display: flex;
+        gap: 43px;
+        margin-left:157px;
+}
+.live-text{
+        font-weight: 700;
+        width: 492px;
+        height: 108px;
+       font-size: 45px;
+       color: #121212;
+       left: 157px;
+}
+.live-description{
+        font-weight: 400;
+font-size: 18px;
+color: #707070;
+}
+.image{
+        width:556px;
+        height: 300px;
+      padding-right: 256px;
+}
+.btn-live{
+       width: 250px;
+  height: 74px;
+  font-weight: 600;
+font-size: 20px;
+  background: #FF5959;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+
+}
+/* other section styles */
+.others-section{
+        margin-top: 350px;
+}
+/* update section styles  */
+.section-update{
+        margin-top: 150px;
+}
+/* final section styles */
+.final-section{
+        background: #FFF4D6;
+        
+        position: relative;
+        width: 899px;
+        height: 300px;
+        margin: 60px 307px;
+}
+ .input{
+        position: absolute;
+        text-align: left;
+        color: #AA9F9F;
+        font-weight: 500;
+        padding-left: 5px;
+        left: 180px;
+        top: 130px;
+        width: 432px; 
+        height: 48px;
+        border: 0;
+        background: #D9D9D9;
+        border-radius: 5px 0px 0px 5px;
+}
+.final-btn{
+        position: absolute;
+        background-color: #FF5959;
+        width:132px ;
+        height:48px ;
+        border: 0;
+        margin-left: 297px;
+        border-radius: 0px 3px 3px 0px ;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 5px 15px;
+        margin: 132px 486px 176px;
+        
+}
+.last-text{
+        
+        font-family: 'Lobster';
+        color: #FF5959;
+        
+        height: 44px;
+}
+.last-description{
+        color: #D9DBE1;
 }
